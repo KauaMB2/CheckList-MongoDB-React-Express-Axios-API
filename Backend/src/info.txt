@@ -1,0 +1,6 @@
+package.json -> File that have informations about the project.
+src -> It is where is the code "source".
+index.js -> It is the project main file.
+node_modules -> Folder with all the project packages.
+config folder -> It is the folder responsible for config the MongoDB to connect in the DB.
+models folder -> It is the folder responsible for create the DB models.
