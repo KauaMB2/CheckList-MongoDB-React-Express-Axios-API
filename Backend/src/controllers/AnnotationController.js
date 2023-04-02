@@ -7,8 +7,8 @@ module.exports={
         return response.json(annotationList)//It returns to the function a JSON object
     },
     async create(request,response){//Post Method
-        console.log("Post method: \n"+request.body)
         const {title, notes, priority}=request.body//Destructuring assigment
+        console.log("Post method: \n"+notes+title+priority)
         if((!notes) || (!title)){
             return response.status(400).json({error: "Necessário título e nota!"})//Returns a error
         }
